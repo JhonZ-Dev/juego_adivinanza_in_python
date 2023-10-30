@@ -7,3 +7,12 @@ This is a simple Python guessing game. The program selects a random number betwe
 3. Enter your guess when prompted.
 4. The program will provide hints, letting you know if the secret number is higher or lower than your guess.
 5. Keep guessing until you correctly guess the secret number or run out of attempts.
+
+## Getting Started
+
+To run the game, you need to have Python installed on your computer.
+
+1. Clone the repository or download the Python script.
+2. Open your terminal or command prompt.
+3. Navigate to the folder containing the script.
+4. Run the script using the `python guessing_game.py` command.
