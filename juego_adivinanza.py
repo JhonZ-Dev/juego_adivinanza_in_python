@@ -18,3 +18,5 @@ def juego_adivinanza():
             break
 
         intentos += 1
+    if intentos == max_intentos:
+        print(f"¡Agotaste tus {max_intentos} intentos! El número secreto era {numero_secreto}. ¡Mejor suerte la próxima vez!")
