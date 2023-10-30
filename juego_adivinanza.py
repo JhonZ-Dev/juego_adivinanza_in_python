@@ -6,3 +6,15 @@ def juego_adivinanza():
     max_intentos = 10
     print("¡Bienvenido al juego de adivinanza!")
     print(f"Adivina el número entre 1 y 100. Tienes un máximo de {max_intentos} intentos.")
+    while intentos < max_intentos:
+        intento = int(input("Introduce tu suposición: "))
+
+        if intento < numero_secreto:
+            print("El número secreto es mayor. Intenta de nuevo.")
+        elif intento > numero_secreto:
+            print("El número secreto es menor. Intenta de nuevo.")
+        else:
+            print(f"¡Felicidades! ¡Adivinaste el número secreto ({numero_secreto}) en {intentos + 1} intentos!")
+            break
+
+        intentos += 1
